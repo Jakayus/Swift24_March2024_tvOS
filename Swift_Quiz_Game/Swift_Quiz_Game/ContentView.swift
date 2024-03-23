@@ -14,11 +14,11 @@ struct ContentView: View {
                 BannerImage()
                 VStack(){
                     Spacer()
-                    Text("Swift Prep - The GAME")
-                        .font(.largeTitle)
+                    Text("Swift Prep - THE GAME")
+                        .font(.title)
                         .bold()
                         .foregroundColor(Color.primary)
-                        .padding(.top, 100)
+                        .padding(.top, 80)
                     Spacer()
                     Spacer()
                     Spacer()
@@ -53,7 +53,7 @@ struct TileView: View {
     }
 }
 
-
+// TODO: put views in separate folders
 struct RulesView: View {
     
     let welcomeMessage = "Welcome to Swift Prep - THE GAME"
@@ -78,6 +78,16 @@ struct RulesView: View {
         .bold()
     }
 }
+
+
+// TODO: establish game logic
+// Game logic idea: list of 5 Swift questions, true/false or multiple choice
+// +1 correct, -1 incorrect for points
+// Game at the end uses the points to adjust "Boss" fight
+// Boss fight still TBD
+// Boss fight ideas: point + shoot game for score where points affect firing speed; avoid obstacles thrown by boss, points affect player speed
+
+// Would love to have game be a SpriteKit game and embed SpriteView
 
 
 
