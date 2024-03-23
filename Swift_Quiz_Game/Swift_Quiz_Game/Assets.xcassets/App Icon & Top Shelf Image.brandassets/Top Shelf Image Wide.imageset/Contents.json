@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "shelf_image_wide.jpg",
       "idiom" : "tv",
       "scale" : "1x"
     },
